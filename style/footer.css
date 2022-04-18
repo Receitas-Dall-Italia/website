@@ -1,0 +1,9 @@
+.footer-content {
+    font-family: Arial;
+    font-size: 15px;
+    line-height: 5px;
+}
+
+footer {
+    display: grid;
+}
