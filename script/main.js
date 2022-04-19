@@ -1,3 +1,4 @@
-Object.onload = function(){
-    alert('sla pora');
+function onloadAlert(){
+    alert("Site desenvolvido para a disciplina \n" +
+        "Programação Web Responsiva.");
 }
