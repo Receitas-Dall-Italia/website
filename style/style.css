@@ -1,10 +1,7 @@
 
 .logo-icone{
     height: 65px;
-    width: 65px;
-    
-    
-    
+    width: 65px;  
 }
 
 .nav{
@@ -15,18 +12,14 @@
     background: #23232e;
     height: 9vh;
     color: aliceblue;
-    
     }
-    
     
 .nav-list{
     list-style: none;
     display: flex;
-    
     }
     
 .nav-list li{
-    
         letter-spacing: 3px;
         margin-left: 32px;
     }
@@ -39,7 +32,7 @@
 
 .fundo{
 
-background-image: url(/assets/fundo-pizza.jpg);
+background-image: url(../assets/fundo-pizza.jpg);
 align-items: center;
 background-size: cover;
 height: 100%;
@@ -47,7 +40,6 @@ height: 100%;
 }
 
 .footer{
-
     background: #23232e;
     color: aliceblue;
     width: 100%;
@@ -55,20 +47,16 @@ height: 100%;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     text-align:start;
-
     }
 
 .footer-li{
-
     list-style: none;
     display: flex;
     justify-content: space-around;
     font-family: Arial, Helvetica, sans-serif;
-    
 }
 
 .linha{
-
 	width: 1200px;
 	margin: 0 auto;
 	overflow: auto;
