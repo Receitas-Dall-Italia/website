@@ -1,0 +1,120 @@
+
+.logo-icone{
+    height: 65px;
+    width: 65px;
+    
+    
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #23232e;
+    height: 9vh;
+    color: aliceblue;
+    
+    }
+    
+    
+.nav-list{
+    list-style: none;
+    display: flex;
+    
+    }
+    
+.nav-list li{
+    
+        letter-spacing: 3px;
+        margin-left: 32px;
+    }
+
+.a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.fundo{
+
+background-image: url(/assets/fundo-pizza.jpg);
+align-items: center;
+background-size: cover;
+height: 100%;
+
+}
+
+.footer{
+
+    background: #23232e;
+    color: aliceblue;
+    width: 100%;
+    bottom: 0;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:start;
+
+    }
+
+.footer-li{
+
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.linha{
+
+	width: 1200px;
+	margin: 0 auto;
+	overflow: auto;
+	padding: 5px 0;
+}
+
+.coluna{
+	padding: 0 10px;
+	float: left;
+}
+.col1{
+	width: 80px;
+}
+.col2{
+	width: 180px;
+}
+.col3{
+	width: 280px;
+}
+.col4{
+	width: 380px;
+}
+.col5{
+	width: 480px;
+}
+.col6{
+	width: 580px;
+}
+.col7{
+	width: 680px;
+}
+.col8{
+	width: 780px;
+}
+.col9{
+	width: 880px;
+}
+.col10{
+	width: 980px;
+}
+.col11{
+	width: 1080px;
+}
+.col12{
+	width: 1180px;
+}
+.header{
+	background: #23232e;
+}
