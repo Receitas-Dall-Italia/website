@@ -31,12 +31,10 @@
 }
 
 .fundo{
-
 background-image: url(../assets/fundo-pizza.jpg);
 align-items: center;
 background-size: cover;
 height: 100%;
-
 }
 
 .footer{
