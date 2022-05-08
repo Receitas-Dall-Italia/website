@@ -12,47 +12,54 @@
 
 <body onload="onloadAlert()" class="fundo">
 
-    <div class="header">
-        <header>
-            <div class="coluna col1">
+    <header>
+        <div class="coluna col1">
 
-                <a href="index.html"><img src="assets/Logosemfundo.png" class="logo-icone"></a>
+            <a href="index.html"><img src="assets/Logosemfundo.png" class="logo-icone image-hover-highlight"></a>
 
-            </div>
+        </div>
 
-            <div class="coluna col11">
-                <nav class="nav">
+        <div class="coluna col11 height-inherit">
+            <nav class="nav height-inherit">
 
-                    <ul class="nav-list">
-                        <li>
-                            <a href="src/receitas-entrada.html" class="a nav">
-                                Pratos de Entrada
-                            </a>
-                        </li>
-                        <li>
-                            <a href="src/receitas-pratoprincipal.html" class="a nav">
-                                Pratos principais
-                            </a>
-                        </li>
-                        <li>
-                            <a href="src/receitas-sobremesa.html" class="a nav">
-                                Sobremesas
-                            </a>
-                        </li>
-                        <li>
-                            <a href="src/restaurantes.html" class="a nav">
-                                Restaurantes
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+                <ul class="nav-list">
+                    <li>
+                        <a href="src/receitas-entrada.html" class="a nav">
+                            Pratos de Entrada
+                        </a>
+                    </li>
+                    <li>
+                        <a href="src/receitas-pratoprincipal.html" class="a nav">
+                            Pratos principais
+                        </a>
+                    </li>
+                    <li>
+                        <a href="src/receitas-sobremesa.html" class="a nav">
+                            Sobremesas
+                        </a>
+                    </li>
+                    <li>
+                        <a href="src/restaurantes.html" class="a nav">
+                            Restaurantes
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
 
-        </header>
-    </div>
+    </header>
 
-    <div class="linha glass">
-        <p class="a">
+    <div class="linha glass display-block">
+        <button class="accordion">Section 1</button>
+        <div class="panel">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+        <button class="accordion">Section 5</button>
+        <div class="panel">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <!--<p class="a">
             <br>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla quia, dolorum a numquam vel assumenda et
             voluptatem consequuntur eligendi nobis soluta consectetur nostrum repellat esse doloremque quas suscipit
@@ -99,19 +106,20 @@
             <br>
             <br>
 
-        </p>
+        </p>-->
     </div>
 
     <div class="footer">
 
         <footer class="nav">
-            <div class="coluna col11">
+            <div class="coluna col1">
     
                 <a class="a" href="index.html">
                     <p>Home</p>
                 </a>
             </div>
-            <div class="coluna col6">
+
+            <div class="coluna col11">
                 <nav class="nav">
     
                     <ul class="nav-list">
@@ -142,6 +150,27 @@
         </footer>
     
     </div>
+
+    <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+        </script>
 </body>
 
 </html>

@@ -7,8 +7,21 @@
 }
 
 .logo-icone{
-    height: 65px;
-    width: 65px;  
+    height: 100px;
+    width: 100px;
+}
+
+.image-hover-highlight {
+}
+
+.image-hover-highlight:hover {
+    filter: brightness(150%);
+    -webkit-filter: brightness(150%);
+    -moz-filter: brightness(150%);
+    -o-filter: brightness(150%);
+    -ms-filter: brightness(150%);
+    height: 150px;
+    width: 150px;
 }
 
 .nav{
@@ -16,19 +29,20 @@
     justify-content: space-around;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-    background: #23232e;
+    background: #00000000;
     height: 9vh;
-    color: aliceblue;
+    color: rgba(0, 0, 0, 0);
     }
     
 .nav-list{
     list-style: none;
     display: flex;
+    font-size: 18px;
     }
     
 .nav-list li{
-        letter-spacing: 3px;
-        margin-left: 32px;
+    letter-spacing: 3px;
+    margin-left: 32px;
     }
 
 .a{
@@ -56,14 +70,8 @@
 	margin: 0 auto;
 	overflow: auto;
 	padding: 5px 0;
-    }
-
-.footer-li{
-    list-style: none;
-    display: flex;
     justify-content: space-around;
-    font-family: Arial, Helvetica, sans-serif;
-}
+    }
 
 .linha{
 	width: 1200px;
@@ -73,16 +81,8 @@
     display: flex;
     margin-top: 12.5px;
     margin-bottom: 12.5px;
-}
-
-.linha-receita {
-    width: 1200px;
-	margin: 0 auto;
-	overflow: auto;
-	padding: 5px 0;
-    display: flex;
-    margin-top: 12.5px;
-    margin-bottom: 12.5px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .coluna{
@@ -125,12 +125,18 @@
 .col12{
 	width: 1180px;
 }
-.header{
-	background: #23232e;
+
+header{
+	background: #23232e9f;
     width: 1200px;
 	margin: 0 auto;
 	overflow: auto;
 	padding: 5px 0;
+    align-items: center;
+}
+
+.height-inherit {
+    height: inherit;
 }
 
 .glass{
@@ -225,3 +231,41 @@
     margin-left: 25px;
     margin-right: 25px;
 }
+
+ul {
+    list-style-type: none;
+}
+
+.align-ul {
+    padding-left: inherit;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    height: 60px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    margin-top: 10px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc; 
+    width: 100%;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    transition: max-height 1s ease-out;
+  }
+
+  .display-block{
+    display:block;
+  }
