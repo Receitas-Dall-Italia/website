@@ -1,43 +1,30 @@
-# Dashboard de visualização de estatisticas de vendas e vendedor.
+# Desenvolvimento do site Receitas Dall'Italia para a matéria Programação Web Responsiva
 
-Foi desenvolvido junto ao curso Semana Spring React ministrado pela escola DevSuperior, você pode acessar o repositório original clicando [aqui](https://github.com/acenelio/projeto-sds3). 
-<br/>
-Você também pode acessar a minha versão do projeto em nuvem clicando [aqui](https://salesdashboardapi.netlify.app/).
-<br/>
+O site foi desenvolvido no 1° semestre do curso Ciência da Computação na UNIP.
+Nosso repositório está disponivél em: https://github.com/Receitas-Dall-Italia/website
 
-Foi desenvolvido utilizando as seguintes tecnologias: 
-<br/>
+Você também pode acessar nosso site através do host: https://receitasdallitalia.netlify.app
+
+Nosso projeto foi desenvolvido utilizando as seguintes tecnologias: 
 
 Backend: 
-<br/>
 
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"/>
-<img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
-<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white"/>
-<img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white"/>
+Javascript - Utilizamos essa linkguagem para adicionar mais interatividade em nosso site.
+Temos um pop-up toda vez que a home page é carregada.
+Os "accordions" em nossa Home que contêm algumas seções para organização da pagina também foram feitos utilizando Javascript.
 
 Frontend:
-<br/>
 
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-<img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"/>
-<img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white"/>
-<br/>
-<br/>
+HTML - Foi utilizado para formatar toda a estrutura básica, ou seja, o esqueleto do nosso site, assim como todas as paginas na internet. Através dessa tecnologia foi possível exibir nossas idéias e compartilhar as informações que gostaríamos de compartilhar.
 
-## Coisas que aprendi:
-<br/>
+CSS - Implementado para poder estilizar e conseguir dar uma aparência e identidade ao nosso site, atraves dessa tecnologia foi possivel adicionar o efeito vidro as nossas seções, estilizar o texto, colocar imagens de uma forma mais fácil e tambem formatar os textos. 
 
-- Deploy da API em nuvem com Heroku e deploy do frontend no Netlify, usando técnicas de CI/CD.
-- Configuração de perfis de ambiente (teste, desenvolvimento e produção). <br/>
-- Utilização de banco de dados H2 embutido e gerenciamento via browser (configuração spring.h2.console.path). <br/>
-- Configuração para liberar o CORS(Cross-Origin Resource Sharing) no backend, que permite que o frontend (Netlify) possa acessar livremente recursos do backend (Heroku). <br/>
-<br/>
-<br/>
+Host do site:
+Netlify - Esse host foi escolhido entre as opções gratuitas disponivéis, principalmente pela integração direta com o GitHub. 
+Tentamos utilizar o 000WebHost porém era muito dificil gerenciar as versões disponivéis, pois o  000WebHost não fornecia essa integração com o GitHub, então todas as vezes que atualizações eram feitas os usuarios precisavam subir essas atualizações no site de Host também.
 
-## Coisas que modifiquei em relação ao projeto original: 
-<br/>
+Versionamento do Projeto:
+GitHub - Selecionamos essa plataforma por ser uma das mais conhecidas no mercado e pelo conhecimento que um dos membros da nossa equipe possui, por isso foi mais fácil manter essa plataforma por ter alguém junto de nós que já conhece nos ensinando do que todos aprenderem uma nova plataforma do início. 
 
-- Implementação do ModelMapper para fazer a conversão Model <> DTO em vez de fazer a conversão via construtor. <br/>
+
 
