@@ -1,5 +1,11 @@
 # Desenvolvimento do site Receitas Dall'Italia para a matéria Programação Web Responsiva
 
+ALUNOS:
+Wellington José de Andrade - N729DH7 
+Julio Cesar Queiroz - G453956 
+Guilherme de Oliveira de Sousa - G412630 
+Gustavo Bruno da Silva - G434285 
+
 O site foi desenvolvido no 1° semestre do curso Ciência da Computação na UNIP.
 Nosso repositório está disponivél em: https://github.com/Receitas-Dall-Italia/website
 
